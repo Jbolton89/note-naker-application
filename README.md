@@ -26,9 +26,9 @@ Deployed through Heroku at this link
 
 User enters title and body of note, then chooses whether they want to add a note or delete a note. 
 
-![Homepage](./Capture3)
-![Notes Page](./Capture1)
-![Aote Added](./Capture2)
+![Homepage](./Capture3.PNG)
+![Notes Page](./Capture1.PNG)
+![Note Added](./Capture2.PNG)
 
 # Contributing
 
