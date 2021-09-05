@@ -15,8 +15,8 @@ module.exports = (app) => {
         });
     });
 
-    app.post('./api/notes', (req, res) => { 
-        fs.readFile('./db/db.json',"uft8", (err, data) => { 
+    app.post('/api/notes', (req, res) => { 
+        fs.readFile('./db/db.json', (err, data) => { 
             let noteContent = JSON.parse(data); 
             const addNote = { id: uniqid(), title: req.body.title, text: req.body.text }
         
